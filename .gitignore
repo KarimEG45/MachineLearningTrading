@@ -64,12 +64,13 @@ db.sqlite3-journal
 # Flask stuff:
 instance/
 .webassets-cache
-
+/02_market_and_fundamental_data/01_NASDAQ_TotalView-ITCH_Order_Book/data
 # Scrapy stuff:
 .scrapy
 
 # Sphinx documentation
 docs/_build/
+data/.zipline/
 
 # PyBuilder
 target/
