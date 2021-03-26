@@ -157,7 +157,7 @@ The image has been configured to store the data in a `.zipline` directory in the
 
 From the command prompt of the container shell, run
 ```bash
-conda activate ml4t-zipline
+conda activate backtest
 zipline ingest
 ``` 
 You should see numerous messages as Zipline processes around 3,000 stock price series.
