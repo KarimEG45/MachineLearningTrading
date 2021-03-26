@@ -135,13 +135,13 @@ With a single Docker command, we can accomplish several things at once (see the 
 
 ### Running the notebooks from the container
 
-Now you are running a shell inside the container and can access the various [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). Run `conda env list` to see that there are a `base`, `ml4t` (default), `ml4t-dl` and an `ml4t-zipline` environments that we will use as follows:
+Now you are running a shell inside the container and can access the various [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html). Run `conda env list` to see that there are a `base`, `ml4t` (default), and `backtest` environments that we will use as follows:
 
 | Part(s)   | Chapters        | Name         |
 |-----------|-----------------|--------------|
 | 1, 2 & 3  | 2-16, Appendix  | ml4t   |
 | 4         | 17-22*           | ml4t-dl  |
-| all | throughout              | ml4t-zipline
+| all | throughout              | backtest|
 
 > the Deep Reinforcement Learning examples require TensorFlow 2.2, which currently is only available for Linux via `conda` for GPU; the notebooks contain instructions for upgrading via `pip`. Check [here](https://anaconda.org/anaconda/tensorflow) for current CPU and [here](https://anaconda.org/anaconda/tensorflow-gpu) for current GPU version support.
 
