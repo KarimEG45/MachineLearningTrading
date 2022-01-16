@@ -49,7 +49,11 @@ while True:
     page += 1
     collected += len(new_data)
     print(f'Page: {page} | Downloaded: {collected}')
-    driver.find_element_by_link_text('Next').click()
+    try:
+        driver.find_element_by_link_text('Next').click()
+    except:
+        print(f'Done')
+        break
 
 driver.close()
 restaurants = pd.read_csv('results.csv')
